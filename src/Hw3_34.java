@@ -10,7 +10,7 @@ public class Hw3_34 {
     /**
      * Default constructor
      */
-    Hw3_34() {}
+    private Hw3_34() {}
 
     /**
      * Calculates x to the nth power.
@@ -42,9 +42,9 @@ public class Hw3_34 {
     }
 
     /**
-     * main()
+     * Prints out all the info for power and powerFaster with x from 1 to 3, and n from 0 to 10
      */
-    public void main(String[] args) {
+    private void printData() {
         for (int x = 1; x <= 3; x++) {
             for (int n = 0; n <= 10; n++) {
                 System.out.println(x + " to the power of " + n + ":");
@@ -52,5 +52,13 @@ public class Hw3_34 {
                 System.out.println("\t" + powerFaster(x, n) + "\n\tcallsFaster: " + callsFaster);
             }
         }
+    }
+
+    /**
+     * main()
+     */
+    public static void main(String[] args) {
+        Hw3_34 obj = new Hw3_34();
+        obj.printData();
     }
 }
