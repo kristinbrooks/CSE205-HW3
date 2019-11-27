@@ -1,8 +1,11 @@
 // CLASS: Hw3_32
 // AUTHOR: Kristin Brooks, krbrook7, krbrook7@asu.edu
 
-public class Hw3_32 {
-    public Hw3_32() {}
+class Hw3_32 {
+    /**
+     * Default constructor
+     */
+    Hw3_32() {}
 
     /**
      * Calculates x to the nth power.
